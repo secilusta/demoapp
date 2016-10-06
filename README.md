@@ -1,1 +1,1 @@
-Read me file will be arranged.
+[![Build Status](https://travis-ci.org/secilusta/demoapp.svg?branch=master)](https://travis-ci.org/secilusta/demoapp)
