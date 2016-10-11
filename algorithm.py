@@ -1,4 +1,6 @@
 def search(array, element1, element2):
+  if array is None:
+    return False
   for e in array:
     if e == element1:
       for f in array:
