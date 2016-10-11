@@ -29,9 +29,5 @@ class TestSearch(unittest.TestCase):
   def test_searchingNoneFailed(self):
     self.assertFalse(search(self.array, None, None))
 
-  def test_searchingNoneSuccessful(self):
-    self.assertTrue(search([None], None, None))
-
-
 if __name__ == '__main__':
     unittest.main()

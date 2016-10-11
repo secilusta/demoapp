@@ -1,12 +1,15 @@
 <!doctype html>
 <title>My application</title>
   <h1>Hello, World!</h1>
-    Result is {{result}}
+  <h2>Result is {{result}}</h2>
+  <p>Enter an array using yaml format in the first area. Second and third areas accept single values for each. The values entered in both area is searched in array. If both of them are found, then result is True, otherwise it is False. </p>
 
   <form action="compute" method="post">
         <textarea name="input1" rows="10" cols="30">
         </textarea>
         <textarea name="input2" rows="10" cols="30">
+        </textarea>
+	<textarea name="input3" rows="10" cols="30">
         </textarea>
         <br>
         <input type="submit">
