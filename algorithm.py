@@ -1,11 +1,9 @@
 def search(array, element1, element2):
-  if array is None:
-    return False
-  if element1 is None or element2 is None:
+  if(array == None):
     return False
   for e in array:
-    if e == element1:
+    if str(e) == str(element1).strip(' '):
       for f in array:
-        if f == element2:
+        if str(f) == str(element2).strip(' '):
           return True
   return False
